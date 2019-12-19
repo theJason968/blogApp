@@ -1,0 +1,61 @@
+#showContainer {
+    margin: 0 auto;
+    width: 50%;
+    border: rgb(163, 150, 150) solid 1px;
+    box-shadow: 0px 0px 1px 1px rgb(212, 205, 205);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.item img {
+    width: 90%;
+    max-height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+#content {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.description {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#showContainer h1{
+    margin-left: 20px;
+}
+
+.delete {
+    display: inline;
+}
+
+.delete button {
+    padding: 15px;
+    margin-bottom: 20px;
+    background: white;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+.showButton {
+    width: 10%;
+    padding: 15px;
+    text-decoration: none;
+    color: rgba(70, 167, 70, 0.507);
+    margin-left: 20px;
+    border: rgba(70, 167, 70, 0.507) solid 2px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.delete button:hover{
+    cursor: pointer;
+}
+
+
+

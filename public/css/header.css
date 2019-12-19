@@ -1,0 +1,71 @@
+body, html {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.top-nav{
+    padding: 20px;
+    background: rgba(240, 235, 235, 0.664);
+    display: flex;
+    border-bottom: rgb(218, 204, 204) solid 1px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.top-nav a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+
+#home {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr;
+    margin-left: 20px;
+}
+
+#registration {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+@media (min-width: 600px){
+    .top-nav select{
+        display: none;
+    }
+}
+
+@media (max-width: 601px){
+    #registration{
+        display: none;
+    }
+}
+
+select {
+    background: rgb(133, 123, 123);
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+select option {
+    color: white;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+/* .navSidebar ul li{
+    list-style: none;
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+}
+
+.navSidebar {
+    margin-left: 80%;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */

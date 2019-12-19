@@ -1,0 +1,53 @@
+.indexTitle{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#index {
+    margin: 0 auto;
+    border: rgb(133, 120, 120) solid 1px;
+    width: 40%;
+    margin-top: 30px;
+    display: grid;
+    border-radius: 10px;
+}
+
+.index2{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    border-bottom: rgb(133, 120, 120) solid 1px;
+    max-height: 300px;
+    padding: 20px;
+    border-bottom-width: thick;
+    border-radius: 10px;
+}
+
+.indexImage {
+    display: grid;
+    height: 100%;
+    
+}
+
+.indexImage img {
+    margin: 0 auto;
+    width: 90%;
+    max-height: 80%;
+    align-self: center;
+}
+
+.indexContent {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.indexContent a {
+    border: lightskyblue solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(30, 95, 214);
+}
+
+.indexContent span {
+    color: lightslategrey;
+}
