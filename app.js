@@ -33,7 +33,7 @@ var Blog = mongoose.model("Blog", blogSchema);
 // });
 
 app.get("/", (req, res) =>{
-    res.redirect("/blogs");
+    res.render("landingPage");
 });
 
 app.get("/blogs", (req, res) =>{
@@ -41,7 +41,7 @@ app.get("/blogs", (req, res) =>{
         if(err){
             console.log("error")
         }else{
-            res.render("index", {blogs: blogs});
+            res.render("main/index", {blogs: blogs});
         }
     });
 });
@@ -73,7 +73,7 @@ app.get("/blogs/:id", function(req, res){
         if(err){
             res.redirect("/blogs")
         }else{
-            res.render("show", {blog: findBlog});
+            res.render("main/show", {blog: findBlog});
         }
     });
 });
@@ -84,7 +84,7 @@ app.get("/blogs/:id/edit", function(req, res){
         if(err){
             res.redirect("/blogs");
         }else{
-            res.render("edit", {blog: findBlog});
+            res.render("main/edit", {blog: findBlog});
         }
     });
 });

@@ -12,32 +12,16 @@
     <script src="https://kit.fontawesome.com/a76040e4b3.js" crossorigin="anonymous"></script>
     <title>BlogApp</title>
 </head>
-<body>
-    <nav class="top-nav">
-        <div id="home">
-        <a href="/"><i class="fas fa-code"></i> Blog</a>
-        <a href="/">Home</a>
-        <a href="/blogs/new">New Post</a>  
+<body> 
+    <div class="top-nav">
+        <div class="newPost">
+            <a href="/"><i class="fas fa-code"></i>Blog</a> 
+            <a href="/blogs/new">New Post</a>
         </div>
-        <div id="registration">           
-            <a id="logIn" href="#">Log in</a>
-            <a href="#">Sign up</a>     
+        <div class="dropdown-content">
+            <a id="logIn" href="/login">Log in</a>
+            <a href="/register">Sign up</a> 
+            <a href="/logout">Logout</a> 
         </div>
-        <select>
-            <option></option>
-            <option><a id="logIn" href="#">Log in</a></option>
-            <option><a href="#">Sign up</a>   </option>
-        </select>
-        <!-- <nav class="navIcon">
-            <i class="fas fa-bars"></i>
-                
-        </nav> -->
-
-    </nav>
+    </div>
     
-    <!-- <aside class="navSidebar">
-        <ul>
-            <li><a>Log in</a></li>
-            <li><a>Sign up</a></li>
-        </ul>
-    </aside> -->
